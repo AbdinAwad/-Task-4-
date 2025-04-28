@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(drew-coffman-1872.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+    color: white;
+}
+.div1{
+    text-align: center;
+}
+.div2{
+    border: 4px ridge white;
+    width: fit-content;
+    margin: 20px auto;
+    padding: 20px;
+    margin: 0 auto;
+}
+th, td {
+    padding: 12px 20px;
+    text-align: left;
+}
+
+th:nth-child(2),
+td:nth-child(2) {
+    border-right: 2px solid white;
+}
